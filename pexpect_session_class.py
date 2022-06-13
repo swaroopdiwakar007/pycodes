@@ -2,7 +2,7 @@ root_prompt = '\]#'
 user_prompt = '\$ $'
 
 prompt = root_prompt
-if ems_user != 'root':
+if user != 'root':
     prompt = user_prompt
 
 class Session():
