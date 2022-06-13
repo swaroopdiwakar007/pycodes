@@ -1,3 +1,10 @@
+root_prompt = '\]#'
+user_prompt = '\$ $'
+
+prompt = root_prompt
+if ems_user != 'root':
+    prompt = user_prompt
+
 class Session():
 
     def __init__(self, obj):
